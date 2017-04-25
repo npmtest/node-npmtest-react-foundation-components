@@ -1,6 +1,6 @@
 # npmtest-react-foundation-components
 
-#### test coverage for  [react-foundation-components (v0.12.0)](https://github.com/aruberto/react-foundation-components#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-react-foundation-components.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-foundation-components) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-foundation-components.svg)](https://travis-ci.org/npmtest/node-npmtest-react-foundation-components)
+#### basic test coverage for  [react-foundation-components (v0.12.0)](https://github.com/aruberto/react-foundation-components#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-react-foundation-components.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-foundation-components) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-foundation-components.svg)](https://travis-ci.org/npmtest/node-npmtest-react-foundation-components)
 
 #### Foundation Sites components built with the power of React and CSS Modules
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-foundation-components/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-react-foundation-components/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-react-foundation-components/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-react-foundation-components/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-foundation-components/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-foundation-components/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-react-foundation-components/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-react-foundation-components/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-foundation-components/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-foundation-components/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-react-foundation-components/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-react-foundation-components/build/coverage.html/index.html)
 
@@ -150,7 +150,8 @@
         "start-examples-global": "npm run build && node server.js examples/global/webpack.config.js",
         "start-examples-global-flex": "npm run build && node server.js examples/global-flex/webpack.config.js"
     },
-    "version": "0.12.0"
+    "version": "0.12.0",
+    "bin": {}
 }
 ```
 
